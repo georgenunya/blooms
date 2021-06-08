@@ -81,6 +81,10 @@
   padding: 20px;
 }
 
+.newlink {
+  color: black;
+}
+
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
   padding: 2px;
