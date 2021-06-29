@@ -314,11 +314,13 @@ a {
     left: 30px;
     right: 30px; }
     .box-item .box-item-info .item-name {
-      font-size: 24px;
-      color: #241305;
-      font-weight: 300; }
-      .box-item .box-item-info .item-name:hover {
-        color: #748a53; }
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: lighter;
+      padding: 4%;
+    background-color: rgba(0, 0, 0, 0.596);
+  text-align: center; }
     .box-item .box-item-info .item-price-rate .item-price {
       font-size: 18px;
       display: inline-block; }
