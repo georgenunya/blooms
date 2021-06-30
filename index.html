@@ -105,22 +105,69 @@
   </header>
 
   <!-- Main content -->
+  <div class="hero-image">
+    <div class="hero-text">
+        <h1>Brighten Up Your Day</h1>
+        <br>
+        <p>Unit 9, Daniels Farm</p>
+    </div>
+</div>
+
+<style>
+  .hero-image{
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.103), 
+    rgba(0, 0, 0, 0.055)), 
+    url("/images/hero4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-image .hero-text{
+  background-color: rgba(0, 0, 0, 0.26);
+  padding: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-image .hero-text h1{
+  font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero-image .hero-text p{
+  font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.hero-image .hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-image .hero-btn:hover{
+    background: #fff;
+    color: #000;
+}
+</style>
+
   <div class="main-content-st2">
 
-    <!-- Slide -->
-    <section class="slide-page2">
-      <div class="slide-wrapper">
-        <div class="slide-bg">
-          <img src="images/hero4.jpg" alt="Slide">
-          <div class="overlay">
-            <div class="st2-slide-content">
-              <h2 class="st2-slide-title">Brighten Up Your Day</h2>
-              <p class="st2-slide-des">Unit 9, Daniels Farm</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Category -->
     <section class="st2-categories padding-section">
@@ -171,31 +218,75 @@
       </div>
     </section>
 
-    <!-- Our History -->
-    <section class="our-history padding-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 box-title">
-            <h5 class="mx-auto box-des des-popular-product">
-              <span class="des-line">A Little Story About Us</span>
-            </h5>
-            <h2 class="des-title">Our History</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mx-auto clientsay st2-clientsay">
+      <!-- AboutUs -->
+      <section class="about-us padding-section">
+        <div class="container">
+          <div class="about-us-wrapper">
+            <div class="row">
+              <div class="col-md-12 box-title">
+                <h5 class="mx-auto box-des-about">
+                  <span class="des-line">A Little Story About Us</span>
+                </h5>
+                <h2 class="des-title">Our History</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mx-auto clientsay st2-clientsay">
+                  <div class="client-text st2-client-text">
+                    <h3 class="quotes">“</h3>
+                    <p class="st2-clientsay-write">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
 
-              <div class="client-text st2-client-text">
-                <h3 class="quotes">“</h3>
-                <p class="st2-clientsay-write">Formerly known as Dutch House Flowers, we are a wholesaler based in
-                  Basildon.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+            <!-- Testimonial -->
+            <section class="testimonial padding-section">
+              <div class="container">
+                <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div class="testimonial-inner">
+                        <div class="testimonial-box">
+                          <img src="images/homepage2/testimonial/testimonial-1.png" alt="testimonial">
+                          <h3 class="testimonial-title">Quality Products</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div class="testimonial-inner">
+                        <div class="testimonial-box">
+                          <img src="images/homepage2/testimonial/testimonial-2.png" alt="testimonial">
+                          <h3 class="testimonial-title">Always Fresh</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div class="testimonial-inner">
+                        <div class="testimonial-box">
+                          <img src="images/homepage2/testimonial/testimonial-3.png" alt="testimonial">
+                          <h3 class="testimonial-title">Environmently Friendly</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div class="testimonial-inner">
+                        <div class="testimonial-box">
+                          <img src="images/homepage2/testimonial/testimonial-4.png" alt="testimonial">
+                          <h3 class="testimonial-title">Excellent Service</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      
 
 
     <!-- Instagram -->
@@ -279,7 +370,9 @@
                 </div>
                 <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-pm">
                   <div class="info-payment tx-center">
-                    <a href="https://www.google.com/maps/dir//9,+Blooms+Of+Essex+(Formerly+Dutch+House+Flowers),+Daniel's+Farm,+Wash+Rd,+Basildon+SS15+4AZ/@51.5938181,0.454381,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47d8c6d0785077f1:0x952d776560b771d1!2m2!1d0.4566095!2d51.593679!3e0">Get Directions</a>
+                    <a href="Privacy.pdf">Privacy Policy / </a>
+                    <a href="termsofuse.pdf">Terms Of Use / </a>
+                    <a href="copyright.pdf">Copyright Policy</a>
                   </div>
                 </div>
                 <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-sc">
