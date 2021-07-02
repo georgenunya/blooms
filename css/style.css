@@ -1825,13 +1825,15 @@ a {
   margin-bottom: -170px; }
   .st2-categories .st2-categories-inner .st2-categories-item {
     padding: 17px;
-    border: solid 3px #80650e;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 15px 15px rgba(0,0,0,0.22);
+    border: solid 3px goldenrod;
     background-image: url(/images/gold.jpg);
     background-size: cover;
     height: 100%; }
     .st2-categories .st2-categories-inner .st2-categories-item:hover {
       border-color: #000000;
-      animation: all .3s; }
+      animation: all .3s; 
+    }
       .st2-categories .st2-categories-inner .st2-categories-item:hover .st2-categories-link {
         color: #CDA83F;
         animation: all .3s; }
