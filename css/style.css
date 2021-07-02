@@ -298,11 +298,11 @@ a {
       position: relative;
       display: inline-block; }
   .box-title .des-title {
-    font-family: "Playfair Display", serif;
+
     
-    
+    color: whitesmoke;
     font-size: 48px;
-    font-weight: 700; }
+    font-weight: 500; }
 
     .item-name-h5 {
       font-family: "Playfair Display", serif;
