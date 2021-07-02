@@ -62,6 +62,10 @@ body {
   background-color: black;
 }
 
+.container1 {
+  width: 100vw;
+}
+
 .container.gallery-container {
   background-color: #fff;
   color: #35373a;
@@ -228,7 +232,7 @@ a {
     margin-left: auto;
     margin-right: auto; }
   .clientsay .client-text .quotes {
-    font-family: "Playfair Display", serif;
+    font-family: 'Lora', serif;
     font-size: 72px;
     margin: 0 0 -20px; }
   .clientsay .client-text .client-name {
@@ -299,13 +303,13 @@ a {
       display: inline-block; }
   .box-title .des-title {
 
-    
+    font-family: 'Lora', serif;
     color: whitesmoke;
     font-size: 48px;
     font-weight: 500; }
 
     .item-name-h5 {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 15px;
       color: #ffffff;
       font-weight: lighter;
@@ -332,7 +336,7 @@ a {
     left: 30px;
     right: 30px; }
     .box-item .box-item-info .item-name {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 20px;
       color: #ffffff;
       font-weight: lighter;
@@ -698,7 +702,7 @@ a {
 
 
 .artifical {
-  font-family: "Playfair Display", serif;
+  font-family: 'Lora', serif;
   text-align: center;
   color: white;
   margin-bottom: 2%;
@@ -738,7 +742,7 @@ a {
         font-size: 18px; }
         .homepage1-slide .homepage1-slide-content_bg .homepage1-slide-content .st1-slide-content_left .st1-info-tile {
           font-size: 60px;
-          font-family: "Playfair Display", serif;
+          font-family: 'Lora', serif;
           font-weight: 700;
           line-height: 90px; }
         .homepage1-slide .homepage1-slide-content_bg .homepage1-slide-content .st1-slide-content_left .st1-info-des {
@@ -946,7 +950,7 @@ a {
             width: 100%; }
           .header-menu .menu-left .menu-primary .li-primary .st2-hamadryad-megamenu .st2-hamadryad-megamenu-modal .st2-hamadryad-submenu-wrapper .st2-submenu-list-item .st2-submenu-item-title {
             font-size: 24px;
-            font-family: "Playfair Display", serif;
+            font-family: 'Lora', serif;
             font-weight: 700;
             padding-top: 45px; }
           .header-menu .menu-left .menu-primary .li-primary .st2-hamadryad-megamenu .st2-hamadryad-megamenu-modal .st2-hamadryad-submenu-wrapper .st2-submenu-list-item .st2-submenu-item-ul {
@@ -1008,7 +1012,7 @@ a {
       .header-menu .menu-left .menu-primary .li-primary .item-primary {
         color: #cfb53b;
         font-size: 18px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         font-weight: 200;
         top: 10px;
         position: relative;
@@ -1082,7 +1086,7 @@ a {
           padding-left: 100px; }
         .header-wrapper .header-inner .header-slider .header-banner-left .info-shop-tilte {
           font-size: 60px;
-          font-family: "Playfair Display", serif;
+          font-family: 'Lora', serif;
           font-weight: 700;
           line-height: 90px; }
         .header-wrapper .header-inner .header-slider .header-banner-left .info-shop-des {
@@ -1168,7 +1172,7 @@ a {
       color: #cfb53b; }
       .categories .categories-item .categories-info .categories-info-name {
         margin-bottom: 25px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         font-size: 36px;
         font-weight: 700; }
       .categories .categories-item .categories-info .categories-info-count {
@@ -1197,7 +1201,7 @@ a {
     text-align: center;
     max-width: 90%; }
     .banner .banner-content .banner-title {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 60px;
       font-weight: 700;
       color: #cfb53b; }
@@ -1224,7 +1228,7 @@ a {
 .footer-wrapper .footer .footer-content .f-content-title {
   font-size: 24px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: 'Lora', serif;
   margin-bottom: 22px; }
 .footer-wrapper .footer .footer-content .f-content-list-item {
   list-style: none;
@@ -1441,7 +1445,7 @@ a {
           display: block !important; }
       .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st2-item-link {
         text-decoration: none;
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         color: #cfb53b;
         font-size: 18px; }
         .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st2-item-link::after {
@@ -1456,8 +1460,8 @@ a {
           -webkit-transition: width 0.4s linear 0s; }
       .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st3-item-link {
         text-decoration: none;
-        font-family: "Playfair Display", serif;
-        font-weight: 200;
+        font-family: 'Lora', serif;
+        font-weight: 400;
         background-image: url(/images/gold.jpg);
         background-size: cover;
         background-clip: text;
@@ -1551,7 +1555,7 @@ a {
               height: auto; }
           .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st2-hamadryad-megamenu .st2-hamadryad-megamenu-modal .st2-hamadryad-submenu-wrapper .st2-submenu-list-item .st2-submenu-item-title {
             font-size: 24px;
-            font-family: "Playfair Display", serif;
+            font-family: 'Lora', serif;
             font-weight: 700;
             padding-top: 45px; }
           .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st2-hamadryad-megamenu .st2-hamadryad-megamenu-modal .st2-hamadryad-submenu-wrapper .st2-submenu-list-item .st2-submenu-item-ul {
@@ -1592,7 +1596,7 @@ a {
         color: #dddddd;
         padding: 0 15px 0 20px;
         background: #f4f4f4;
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         outline: 0; }
         .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-control-right .st2-search-box .st2-search-block .st2-search-form .at2-search-fields .st2-search-input .st2-search-field::placeholder {
           color: #dddddd; }
@@ -1801,7 +1805,7 @@ a {
     display: inline-block;
     width: 100%; }
     .slide-wrapper .slide-bg .st2-slide-content .st2-slide-title {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 60px;
       font-weight: 700;
       line-height: 90px; }
@@ -1817,15 +1821,16 @@ a {
 
 /** change color here for black and gold **/
 
-
-
-.st2-categories {
+/** .st2-categories {
   position: relative;
   top: -170px;
-  margin-bottom: -170px; }
+  margin-bottom: -170px; } **/
+
+.st2-categories {
+  position: relative; }
   .st2-categories .st2-categories-inner .st2-categories-item {
     padding: 17px;
-    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 15px 15px rgba(0,0,0,0.22);
+    box-shadow: 0 25px 38px rgba(255, 255, 255, 0.25), 0 15px 15px rgba(0,0,0,0.22);
     border: solid 4px goldenrod;
     background-color: black;
     height: 100%; }
@@ -1845,7 +1850,7 @@ a {
     .st2-categories .st2-categories-inner .st2-categories-item .st2-categories-info .st2-categories-name {
       color: rgb(255, 255, 255);
       font-size: 36px;
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-weight: 700;
       margin: 0;
       padding: 20px 0; }
@@ -1858,7 +1863,7 @@ a {
         
         color: rgb(133, 133, 133);
         font-size: 26px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         font-weight: 500;
       }
 
@@ -1902,7 +1907,7 @@ a {
         display: inline-block;
         width: 100%; }
         .block-banner .block-banner__wrapper .block-banner__inner .overlay .block-banner__content .block-banner__title {
-          font-family: "Playfair Display", serif;
+          font-family: 'Lora', serif;
           font-size: 60px;
           font-weight: 700;
           line-height: 90px;
@@ -1975,7 +1980,7 @@ a {
     text-align: center;
     padding-bottom: 50px; }
     .newsletter .newsletter-top .newsletter-title {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 48px;
       font-weight: 700;
       margin-bottom: 20px; }
@@ -2063,7 +2068,7 @@ a {
 .categories-slide .categories-slide-left .st3-categories {
   background: #f4f4f4; }
   .categories-slide .categories-slide-left .st3-categories .st3-categories-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Lora', serif;
     font-size: 24px;
     color: #fff;
     background: #CDA83F;
@@ -2145,7 +2150,7 @@ a {
     .categories-slide .categories-slide-right .st3-slider-item .st3-slider-item-info .st3-slider-item-des {
       font-size: 18px; }
     .categories-slide .categories-slide-right .st3-slider-item .st3-slider-item-info .st3-slider-item-title {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 60px;
       font-weight: 700;
       padding-bottom: 45px; }
@@ -2250,7 +2255,7 @@ a {
         color: #CDA83F;
         text-transform: none; }
     .st3-banner-poundersay .poundersay .client-text-st3 .quotes {
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-size: 72px;
       margin: 0 0 -20px; }
   .st3-banner-poundersay .st3-banner .st3-banner-item .st3-banner-item-image img {
@@ -2319,7 +2324,7 @@ a {
     text-align: center; }
     .footer-content-st3 .footer-content-st3-right .f-st3-banner .banner-content .banner-content-title {
       font-size: 36px;
-      font-family: "Playfair Display", serif; }
+      font-family: 'Lora', serif; }
 
 .icon-plus {
   display: none;
@@ -2401,7 +2406,7 @@ a {
 /** 5.1.	    General **/
 .filter-by-price .filter-by-price-title {
   font-size: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Lora', serif;
   font-weight: 700;
   padding-bottom: 30px;
   margin: 0; }
@@ -2420,7 +2425,7 @@ a {
     color: #dddddd;
     padding: 0 15px 0 20px;
     background: #fff;
-    font-family: "Playfair Display", serif;
+    font-family: 'Lora', serif;
     outline: 0; }
   .shoppage-fullwidth .shoppage-fullwidth-action .filter-left .filter-left-search .filter-left-search-form .filter-left-search-fields .filter-left-search-input .filter-search-submit {
     width: 50px;
@@ -2708,7 +2713,7 @@ a {
     text-align: center; }
     .product-detail-v1 .product-detail-v1-wrapper .product-detail-tabs-content .product-detail-tabs .product-detail-tabs-item {
       font-size: 48px;
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       font-weight: 700;
       color: #cfb53b;
       padding: 0 40px; }
@@ -2813,7 +2818,7 @@ a {
   padding-bottom: 85px; }
   .blog-new-wrapper-v1 .blog-new-inner-left .blog-new-inner-left-title {
     font-size: 24px;
-    font-family: "Playfair Display", serif;
+    font-family: 'Lora', serif;
     font-weight: 700;
     padding-bottom: 40px;
     margin: 0; }
@@ -2931,7 +2936,7 @@ a {
   display: inline-block;
   width: 100%; }
   .st2-banner-content-child-page .banner-child-page-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Lora', serif;
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 15px; }
@@ -3079,13 +3084,19 @@ a {
 /** 6.3. Pages **/
 /** 6.3.1	    About us **/
 .about-us {
-  margin-top: -170px; }
+  margin-top: -170px;
+  
+
+}
   .about-us .about-us-wrapper {
     margin-top: 5%;
     background: #000000 url("../images/homepage2/bg-aboutus.png");
+    background-size: cover;
     background-position: center;
     position: relative;
-    padding: 106px 0; }
+    padding: 106px 0;
+  
+  }
     .about-us .about-us-wrapper .box-des-about {
       font-size: 18px;
       font-weight: 200; }
@@ -3107,7 +3118,7 @@ a {
       min-height: 97px; }
     .testimonial .testimonial-wrapper .testimonial-inner .testimonial-box .testimonial-title {
       color: whitesmoke;
-      font-family: "Playfair Display", serif;
+      font-family: 'Lora', serif;
       margin: 0;
       padding: 25px 0; }
     .testimonial .testimonial-wrapper .testimonial-inner .testimonial-box .testimonial-des {
@@ -3133,11 +3144,11 @@ a {
       padding: 65px 0 30px;
       position: relative; }
       .contact-info .contact-info-top .contact-info-top-inner .contact-info-top-box .contact-info-title {
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         color: goldenrod;
         font-size: 30px; }
       .contact-info .contact-info-top .contact-info-top-inner .contact-info-top-box .contact-info-des {
-        font-family: "Playfair Display", serif;
+        font-family: 'Lora', serif;
         color: white;
         font-size: 18px;
         margin: 0; }
@@ -3393,7 +3404,7 @@ a {
     margin-bottom: 0 !important; }
     .st2-categories .st2-categories-inner .st2-categories-item {
       padding: 0;
-      border: solid 3px #f4f4f4; }
+      border: solid 3px goldenrod; }
 
   .blogn-post-comments .blogn-post-title {
     font-size: 30px; }
