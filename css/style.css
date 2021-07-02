@@ -1826,14 +1826,9 @@ a {
   .st2-categories .st2-categories-inner .st2-categories-item {
     padding: 17px;
     box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 15px 15px rgba(0,0,0,0.22);
-    border: solid 3px goldenrod;
-    background-image: url(/images/gold.jpg);
-    background-size: cover;
+    border: solid 4px goldenrod;
+    background-color: black;
     height: 100%; }
-    .st2-categories .st2-categories-inner .st2-categories-item:hover {
-      border-color: #000000;
-      animation: all .3s; 
-    }
       .st2-categories .st2-categories-inner .st2-categories-item:hover .st2-categories-link {
         color: #CDA83F;
         animation: all .3s; }
@@ -1848,7 +1843,7 @@ a {
       .st2-categories .st2-categories-inner .st2-categories-item .st2-categories-thum:hover img {
         transform: scale(1.05); }
     .st2-categories .st2-categories-inner .st2-categories-item .st2-categories-info .st2-categories-name {
-      color: #000;
+      color: rgb(255, 255, 255);
       font-size: 36px;
       font-family: "Playfair Display", serif;
       font-weight: 700;
@@ -1861,7 +1856,7 @@ a {
 
       .st2-categories-name-h5 {
         
-        color: rgb(65, 65, 65);
+        color: rgb(133, 133, 133);
         font-size: 26px;
         font-family: "Playfair Display", serif;
         font-weight: 500;
