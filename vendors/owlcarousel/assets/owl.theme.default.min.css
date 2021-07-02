@@ -15,7 +15,7 @@
 }
 .active-clientsaylist .owl-nav {position: relative; }
 .active-clientsaylist .owl-nav [class*='owl-'] {
-  color: #241305;
+  color: #cfb53b;
   font-size: 24px;
   margin: 5px;
   padding: 4px 7px;
@@ -68,7 +68,7 @@
 
 .active-pro-dealof-theweek .owl-controls{ text-align: center; padding-top: 20px;}
 .active-pro-dealof-theweek .owl-nav [class*='owl-'] {
-  color: #241305;
+  color: #cfb53b;
   font-size: 18px;
   display: inline-block;
   cursor: pointer;
