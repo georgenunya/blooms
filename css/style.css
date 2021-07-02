@@ -299,6 +299,8 @@ a {
       display: inline-block; }
   .box-title .des-title {
     font-family: "Playfair Display", serif;
+    
+    
     font-size: 48px;
     font-weight: 700; }
 
@@ -317,7 +319,8 @@ a {
   border: solid 3px #f4f4f400;
   margin: 12px 0; }
   .box-item:hover {
-    border-color: #cfb53b;
+    background-image: url(/images/gold.jpg);
+    background-size: cover;
     transition: all .3s; }
     .box-item:hover .loop-action {
       opacity: 1 !important;
@@ -1341,7 +1344,7 @@ a {
         .header-topbar .st2-info-header .st2-info-header-list .st2-info-li .st2-language .st2-select:focus, .header-topbar .st2-info-header .st2-info-header-list .st2-info-li .st2-currencies .st2-select:focus {
           outline: none; }
         .header-topbar .st2-info-header .st2-info-header-list .st2-info-li .st2-language .st2-select option, .header-topbar .st2-info-header .st2-info-header-list .st2-info-li .st2-currencies .st2-select option {
-          color: #cfb53b;
+          color: #8b8462;
           padding-left: 5px; }
   .header-topbar .st2-info-myacount {
     float: right; }
@@ -1454,8 +1457,14 @@ a {
       .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st3-item-link {
         text-decoration: none;
         font-family: "Playfair Display", serif;
-        color: #cfb53b;
-        font-size: 18px; }
+        font-weight: 200;
+        background-image: url(/images/gold.jpg);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        font-size: 20px; }
         .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st3-item-link::after {
           content: "";
           width: 0;
@@ -1817,7 +1826,8 @@ a {
   .st2-categories .st2-categories-inner .st2-categories-item {
     padding: 17px;
     border: solid 3px #80650e;
-    background: #cfb53b;
+    background-image: url(/images/gold.jpg);
+    background-size: cover;
     height: 100%; }
     .st2-categories .st2-categories-inner .st2-categories-item:hover {
       border-color: #000000;
@@ -1849,7 +1859,7 @@ a {
 
       .st2-categories-name-h5 {
         
-        color: rgb(97, 97, 97);
+        color: rgb(65, 65, 65);
         font-size: 26px;
         font-family: "Playfair Display", serif;
         font-weight: 500;
@@ -2015,7 +2025,7 @@ a {
         padding-right: 10px; }
 
         .gold {
-          color: goldenrod;
+          color: #cfb53b;
         }
 
 .instagram {
