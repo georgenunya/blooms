@@ -61,7 +61,7 @@
 
 $fontP: 'Playfair Display', serif;
 $fontR: 'Roboto', sans-serif;
-$colorHover: #748a53;
+$colorHover: #CDA83F;
 $textColor: #cfb53b;
 
 /** 1. Reset **/
@@ -713,7 +713,7 @@ a{
 		width: 40%;
 		height: 699px;
 		position: absolute;
-		background: #748a53;
+		background: #CDA83F;
 		top: 0;
 		right: 0;
 		display: block;
@@ -1715,7 +1715,7 @@ top: -35%;
 						    width: 15px;
 						    height: 15px;
 						    position: absolute;
-						    background: #748a53;
+						    background: #CDA83F;
 						    color: #fff;
 						    line-height: 15px;
 						    text-align: center;
@@ -2241,7 +2241,7 @@ top: -35%;
 						&::before{
 							left: 0;
 							transform: none;
-							border-bottom: 1px solid #748a53;
+							border-bottom: 1px solid #CDA83F;
 							position: absolute;
 							content: '';
 							bottom: 0;

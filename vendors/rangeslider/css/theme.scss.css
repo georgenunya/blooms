@@ -15,13 +15,13 @@
     background-color: #000;
 }
 .irs--flat .irs-handle:hover>i:first-child {
-    background-color: #748a53;
+    background-color: #CDA83F;
 }
 .irs--flat .irs-handle:hover{
-    background-color: #748a53;
+    background-color: #CDA83F;
 }
 .irs--flat .irs-bar{
-    background-color: #748a53;
+    background-color: #CDA83F;
 }
 .irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before{
     display: none;
@@ -35,7 +35,7 @@
     background-color: #000;
 } 
 .irs--flat .irs-handle:hover>i:first-child{
-    background-color: #748a53;
+    background-color: #CDA83F;
 }
 .irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single{
     font-size: 14px;

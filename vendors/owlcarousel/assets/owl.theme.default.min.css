@@ -25,7 +25,7 @@
 }
 .active-clientsaylist .owl-nav [class*='owl-']:hover {
   /*background: #869791;*/
-  color: #748a53;
+  color: #CDA83F;
   text-decoration: none; 
 }
 .active-clientsaylist .owl-nav .owl-prev{
@@ -75,13 +75,13 @@
 }
 .active-pro-dealof-theweek .owl-nav .owl-prev ::after{
   content: '';
-  color: #748a53;
+  color: #CDA83F;
   border: solid 1px;
   font-size: 20px;
   margin: 0 15px;
 }
 .active-pro-dealof-theweek .owl-nav [class*='owl-']:hover {
   /*background: #869791;*/
-  color: #748a53;
+  color: #CDA83F;
   text-decoration: none; 
 }
