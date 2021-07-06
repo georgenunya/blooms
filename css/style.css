@@ -4019,7 +4019,8 @@ a {
     padding-top: 25px; }
 
   .box-item {
-    border: solid 3px #f4f4f4; }
+    border: solid 1px rgb(226, 155, 0);
+   }
     .box-item .box-item-info {
       text-align: center; }
       .box-item .box-item-info .item-price-rate .item-rating {
