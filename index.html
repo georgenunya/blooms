@@ -109,48 +109,48 @@
 
   <!-- Main content -->
   <div class="hero-image">
-    <div class="hero-text">
-        <h1>Brighten Up Your Day</h1>
-        <br>
-        <p>Unit 9, Daniels Farm</p>
+    <div class="container20">
+      <h1><span>Brighten Up Your Day</span></h1>
+        <span class="deshero">Unit 9, Daniels Farm</span>
     </div>
 </div>
 
 <style>
-  .hero-image{
-    background-image: linear-gradient(
-    rgba(0, 0, 0, 0.103), 
-    rgba(0, 0, 0, 0.055)), 
-    url("/images/hero4.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.hero-image .hero-text{
-  background-color: rgba(0, 0, 0, 0.26);
-  padding: 2%;
-    color: #fff;
-    text-align: center;
-}
+    .hero-image {
+      position: relative;
+      height: 700px;
+      overflow: hidden;
+      background: url(/images/hero4.jpg) no-repeat center;
+      background-size: cover;
+    }
 
-.hero-image .hero-text h1{
-  font-family: 'Lora', serif;
-    font-size: 60px;
-    font-weight: 400;
-}
+    .container20 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      overflow: hidden;
+      text-align: center;
+      color: whitesmoke;
+      font-family: 'Lora', serif;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
 
-.hero-image .hero-text p{
-  font-family: 'Lora', serif;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 10px;
-}
+    .container20 h1 {
+      font-size: 50px;
+      letter-spacing: 0.2em;
+      margin: 0;
+    }
+
+    .container20 h1 span {
+      border: 2px solid whitesmoke;
+      padding: 6px 14px;
+      display: inline-block;
+    }
+
+
 </style>
 
   <div class="main-content-st2">
@@ -172,7 +172,7 @@
                 <div class="mx-auto clientsay st2-clientsay">
                   <div class="client-text st2-client-text">
                     <h3 class="quotes">“</h3>
-                    <p class="st2-clientsay-write">From snapdragons to sunflowers, lilac stocks to lilies, we’ve got you covered. With 35 years’ experience, our founder Rodney Rooke knows what it takes to nurture flowers to the highest quality and longevity. Being trade sellers, Blooms will ensure to supply stock of excellence worthy of your business. We even provide faux flowers for long lasting beauty. Blooms’ friendly staff are always on hand to help with any enquiries, so feel free to contact us so we can make your time with us rosy.</p>
+                    <p class="st2-clientsay-write">From snapdragons to sunflowers, lilac stocks to lilies, we’ve got you covered. Being trade sellers, Blooms will ensure to supply stock of excellence worthy of your business. We even provide faux flowers for long lasting beauty. Blooms’ friendly staff are always on hand to help with any enquiries, so feel free to contact us so we can make your time with us rosy.</p>
 
                   </div>
                 </div>

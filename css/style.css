@@ -58,8 +58,23 @@
 /** 1. Reset **/
 /** 1.1.	     Reset **/
 
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: black;
+  overflow-x: hidden;
+}
+
+.manymore h4 {
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
 }
 
 .container1 {
@@ -427,7 +442,7 @@ a {
   max-width: -moz-calc(100% - 20px);
   max-width: calc(100% - 20px);
   line-height: 24px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   bottom: 0;
   transition: all .3s;
   z-index: 1000000;
@@ -439,8 +454,8 @@ a {
     font-size: 12px;
     margin: 0;
     text-align: center;
-    background: #f3f3f3;
-    border-bottom: solid 1px #e6e6e6;
+    background: #000000;
+    border-bottom: solid 1px #000000;
     line-height: 24px;
     text-transform: uppercase;
     padding: 12px 0 10px 5px;
@@ -455,7 +470,7 @@ a {
     line-height: 48px;
     color: #fff;
     cursor: pointer;
-    background: #333;
+    background: rgb(0, 0, 0);
     width: 100%;
     z-index: 105;
     font-size: 20px;
@@ -471,7 +486,7 @@ a {
     height: 100%;
     bottom: 0; }
     .box-mobile-menu .menu-clone .main-menu .menu-item {
-      border-bottom: solid 1px #e6e6e6;
+      border-bottom: solid 1px #000000;
       display: inline-block;
       position: static;
       float: left;
@@ -1382,7 +1397,7 @@ a {
     .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-header-logo img {
       width: 100%;
       height: auto;
-      max-width: 151px; }
+      max-width: 150px; }
   .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu {
     position: absolute;
     top: 50%;
@@ -3513,7 +3528,7 @@ a {
     max-width: 100%; }
 
   .header-bottom-st2-inner .st2-header-logo {
-    padding: 10px 0 !important; }
+    padding: 15px 0 !important; }
 
   .padding-section {
     padding-left: 0px;
