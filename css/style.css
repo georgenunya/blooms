@@ -58,6 +58,7 @@
 /** 1. Reset **/
 /** 1.1.	     Reset **/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
   overflow-x: hidden;
@@ -1865,9 +1866,9 @@ a {
         transform: scale(1.05); }
     .st2-categories .st2-categories-inner .st2-categories-item .st2-categories-info .st2-categories-name {
       color: rgb(255, 255, 255);
-      font-size: 36px;
+      font-size: 32px;
       font-family: 'Lora', serif;
-      font-weight: 700;
+      font-weight: 00;
       margin: 0;
       padding: 20px 0; }
     .st2-categories .st2-categories-inner .st2-categories-item .st2-categories-info .st2-categories-count {
@@ -1878,7 +1879,7 @@ a {
       .st2-categories-name-h5 {
         
         color: rgb(133, 133, 133);
-        font-size: 26px;
+        font-size: 20px;
         font-family: 'Lora', serif;
         font-weight: 500;
       }
@@ -3133,6 +3134,8 @@ a {
       max-width: 100%;
       min-height: 97px; }
     .testimonial .testimonial-wrapper .testimonial-inner .testimonial-box .testimonial-title {
+      font-size: 24px;
+      font-weight: 400;
       color: whitesmoke;
       font-family: 'Lora', serif;
       margin: 0;
