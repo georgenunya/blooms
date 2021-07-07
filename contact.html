@@ -32,80 +32,120 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+      <!-- menu style sheet inline -->
+      <style>
+        @font-face {
+          font-family: 'blooms';
+          src: url(/fonts/blooms.otf);
+          font-style: normal;
+          font-weight: 100;
+        }
+    
+        .inner_main_menu {margin: 0 auto; width: 1170px;}
+        .inner_main_menu ul {margin: 0; padding: 50px 0 0; padding-bottom: 50px; list-style: none; text-align: right;}
+        .inner_main_menu ul li {float: none; display: inline-block;}
+        .inner_main_menu ul li:nth-child(1) {float: left;}
+        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+          background-size: cover;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font-family: 'blooms'; font-size: 20px; text-transform: uppercase; text-decoration: none;
+        display: block; padding: 10px 20px;}
+        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
+        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
+          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        }
+        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -150px; z-index: 100000;}
+    
+        @media (max-width:480px) {
+          .inner_main_menu {margin: 0 auto; width: 100%;}
+        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
+        .inner_main_menu ul li {float: none; display: inline-block;}
+        .inner_main_menu ul li:nth-child(1) {float: left;}
+        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+          background-size: cover;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
+        display: block; padding: 10px 20px;}
+        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
+        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
+          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        }
+        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+      }
+        .logo_area img {
+          max-width: 50%; height: auto;
+        }
+        }
+    
+        @media (max-width:768px) {
+          .inner_main_menu {margin: 0 auto; width: 100%;}
+        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
+        .inner_main_menu ul li {float: none; display: inline-block;}
+        .inner_main_menu ul li:nth-child(1) {float: left;}
+        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+          background-size: cover;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
+        display: block; padding: 10px 20px;}
+        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
+        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
+          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        }
+        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+      }
+        .logo_area img {
+          max-width: 50%; height: auto;
+        }
+        }
+    
+        @media (max-width:1024px) {
+          .inner_main_menu {margin: 0 auto; width: 100%;}
+        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
+        .inner_main_menu ul li {float: none; display: inline-block;}
+        .inner_main_menu ul li:nth-child(1) {float: left;}
+        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+          background-size: cover;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
+        display: block; padding: 10px 20px;}
+        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
+        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
+          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        }
+        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+      }
+        .logo_area img {
+          max-width: 50%; height: auto;
+        }
+        }
+      </style>
 
   <title>Blooms Of Essex</title>
 </head>
 
 <body>
   <!-- Header -->
-  <header>
-
-
-
-    <!-- Header bottom -->
-    <div class="header-bottom">
-      <div class="header-bottom-st2-wrapper">
-        <div class="header-bottom-st2-inner">
-          <div class="container">
-            <div class="row js-compare">
-              <div class="col-lg-3 st2-col-lapt-3 col-md-3 col-3">
-                <div class="st2-header-logo">
-                  <img src="images/logo1.png" height="151" width="151" alt="Logo">
-                </div>
-              </div>
-              <div class="col-lg-6 hide-reponsive js-dad">
-                <!-- Menu -->
-                <div class="st2-hamadryad-menu">
-                  <nav>
-                    <ul class="st2-menu-primary">
-                      <li class="st2-li-primary"><a class="st3-item-link" href="index.html">Home</a></li>
-                      <li class="st2-li-primary"><a class="st3-item-link" href="gallery.html">Gallery</a></li>
-                      <li class="st2-li-primary"><a class="st3-item-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-lg-3 st2-col-lapt-9 col-md-9 col-9">
-                <div class="st2-control-right">
-                  <div class="st2-control">
-
-
-                    <!-- mega menu -->
-                    <div class="st2-megamenu-block st2-control-block js-click-megamenu">
-                      <div class="st2-megamenu-icon">
-                        <span class="lnr lnr-menu"></span>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Menu mobie -->
-    <div class="box-mobile-menu">
-      <span class="box-title">Menu</span>
-      <a href="#" class="close-menu" id="pull-closemenu">
-        <i class="lnr lnr-cross"></i>
+  <div id="main_menu">
+    <div class="logo_area">
+      <a href="index.html">
+        <img src="/images/logo1.png" alt="logo">
       </a>
-      <div class="menu-clone">
-        <ul class="main-menu">
-
-          <li class="menu-item menu-item-has-children"><a href="index.html">Home</a></li>
-          <li class="menu-item menu-item-has-children"><a href="gallery.html">Gallery</a></li>
-          <li class="menu-item menu-item-has-children"><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
     </div>
-    <div class="menu-overlay"></div>
-
-  </header>
+    <div class="inner_main_menu">
+      <ul>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 
   <!-- Main content -->
   <div class="main-content-st2">
