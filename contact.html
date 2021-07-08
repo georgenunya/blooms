@@ -27,106 +27,293 @@
   <link rel="stylesheet" href="fonts/linea/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-      <!-- menu style sheet inline -->
-      <style>
-        @font-face {
-          font-family: 'blooms';
-          src: url(/fonts/blooms.otf);
-          font-style: normal;
-          font-weight: 100;
-        }
-    
-        .inner_main_menu {margin: 0 auto; width: 1170px;}
-        .inner_main_menu ul {margin: 0; padding: 50px 0 0; padding-bottom: 50px; list-style: none; text-align: right;}
-        .inner_main_menu ul li {float: none; display: inline-block;}
-        .inner_main_menu ul li:nth-child(1) {float: left;}
-        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
-          background-size: cover;
-          background-clip: text;
-          -webkit-background-clip: text;
-          color: transparent;
-          font-family: 'blooms'; font-size: 20px; text-transform: uppercase; text-decoration: none;
-        display: block; padding: 10px 20px;}
-        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
-        }
-        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -150px; z-index: 100000;}
-    
-        @media (max-width:480px) {
-          .inner_main_menu {margin: 0 auto; width: 100%;}
-        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-        .inner_main_menu ul li {float: none; display: inline-block;}
-        .inner_main_menu ul li:nth-child(1) {float: left;}
-        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
-          background-size: cover;
-          background-clip: text;
-          -webkit-background-clip: text;
-          color: transparent;
-          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-        display: block; padding: 10px 20px;}
-        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
-        }
-        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+  <!-- menu style sheet inline -->
+  <style>
+    @font-face {
+      font-family: 'blooms';
+      src: url(/fonts/blooms.otf);
+      font-style: normal;
+      font-weight: 100;
+    }
+
+    .inner_main_menu {
+      margin: 0 auto;
+      width: 1170px;
+    }
+
+    .inner_main_menu ul {
+      margin: 0;
+      padding: 50px 0 0;
+      padding-bottom: 50px;
+      list-style: none;
+      text-align: right;
+    }
+
+    .inner_main_menu ul li {
+      float: none;
+      display: inline-block;
+    }
+
+    .inner_main_menu ul li:nth-child(1) {
+      float: left;
+    }
+
+    .inner_main_menu ul li a {
+      background-image: url(/images/gold.jpg);
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-family: 'blooms';
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+    }
+
+    .inner_main_menu ul li a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    #main_menu {
+      background-image: url(/images/homepage2/bg-aboutus1.png);
+      background-size: cover;
+      width: 100%;
+      position: relative;
+      box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+      z-index: 200000;
+    }
+
+    .logo_area {
+      width: 300px;
+      height: 150px;
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      content: "";
+      margin-left: -150px;
+      z-index: 100000;
+    }
+
+    @media (max-width:480px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
       }
-        .logo_area img {
-          max-width: 50%; height: auto;
-        }
-        }
-    
-        @media (max-width:768px) {
-          .inner_main_menu {margin: 0 auto; width: 100%;}
-        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-        .inner_main_menu ul li {float: none; display: inline-block;}
-        .inner_main_menu ul li:nth-child(1) {float: left;}
-        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
-          background-size: cover;
-          background-clip: text;
-          -webkit-background-clip: text;
-          color: transparent;
-          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-        display: block; padding: 10px 20px;}
-        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
-        }
-        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
       }
-        .logo_area img {
-          max-width: 50%; height: auto;
-        }
-        }
-    
-        @media (max-width:1024px) {
-          .inner_main_menu {margin: 0 auto; width: 100%;}
-        .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-        .inner_main_menu ul li {float: none; display: inline-block;}
-        .inner_main_menu ul li:nth-child(1) {float: left;}
-        .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
-          background-size: cover;
-          background-clip: text;
-          -webkit-background-clip: text;
-          color: transparent;
-          font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-        display: block; padding: 10px 20px;}
-        .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-        #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-          box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
-        }
-        .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
       }
-        .logo_area img {
-          max-width: 50%; height: auto;
-        }
-        }
-      </style>
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'blooms';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+      }
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        background-image: url(/images/homepage2/bg-aboutus1.png);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
+      }
+
+      .logo_area {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -75px;
+        z-index: 100000;
+        padding-top: 10px;
+      }
+
+      .logo_area img {
+        max-width: 50%;
+        height: auto;
+      }
+    }
+
+    @media (max-width:768px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
+      }
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
+      }
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'blooms';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+      }
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 20%;
+        background-image: url(/images/homepage2/bg-aboutus1.png);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
+      }
+
+      .logo_area {
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -150px;
+        z-index: 100000;
+        padding-top: 10px;
+      }
+
+      .logo_area img {
+        text-align: center;
+        padding-top: 15%;
+        min-width: auto;
+        padding: auto;
+        height: auto;
+      }
+    }
+
+    @media (max-width:1024px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
+      }
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
+      }
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'blooms';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+      }
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        background-image: url(/images/homepage2/bg-aboutus1.png);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
+      }
+
+      .logo_area {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -75px;
+        z-index: 100000;
+        padding-top: 10px;
+      }
+
+      .logo_area img {
+        max-width: 50%;
+        height: auto;
+      }
+    }
+  </style>
 
   <title>Blooms Of Essex</title>
 </head>
@@ -291,7 +478,8 @@
                 <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-sc">
                   <div class="social-inner-st2 tx-center">
                     <div class="socials socials-st2">
-                      <a href="https://www.instagram.com/bloomsofessexwholesaleltd/" class="icon-social icon-social-st2">
+                      <a href="https://www.instagram.com/bloomsofessexwholesaleltd/"
+                        class="icon-social icon-social-st2">
                         <i class="ti-instagram"></i>
                       </a>
                     </div>

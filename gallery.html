@@ -27,107 +27,294 @@
   <link rel="stylesheet" href="fonts/linea/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
-    <!-- menu style sheet inline -->
-    <style>
-      @font-face {
+  <!-- menu style sheet inline -->
+  <style>
+    @font-face {
+      font-family: 'blooms';
+      src: url(/fonts/blooms.otf);
+      font-style: normal;
+      font-weight: 100;
+    }
+
+    .inner_main_menu {
+      margin: 0 auto;
+      width: 1170px;
+    }
+
+    .inner_main_menu ul {
+      margin: 0;
+      padding: 50px 0 0;
+      padding-bottom: 50px;
+      list-style: none;
+      text-align: right;
+    }
+
+    .inner_main_menu ul li {
+      float: none;
+      display: inline-block;
+    }
+
+    .inner_main_menu ul li:nth-child(1) {
+      float: left;
+    }
+
+    .inner_main_menu ul li a {
+      background-image: url(/images/gold.jpg);
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-family: 'blooms';
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+    }
+
+    .inner_main_menu ul li a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    #main_menu {
+      background-image: url(/images/homepage2/bg-aboutus1.png);
+      background-size: cover;
+      width: 100%;
+      position: relative;
+      box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+      z-index: 200000;
+    }
+
+    .logo_area {
+      width: 300px;
+      height: 150px;
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      content: "";
+      margin-left: -150px;
+      z-index: 100000;
+    }
+
+    @media (max-width:480px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
+      }
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
+      }
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
         font-family: 'blooms';
-        src: url(/fonts/blooms.otf);
-        font-style: normal;
-        font-weight: 100;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
       }
-  
-      .inner_main_menu {margin: 0 auto; width: 1170px;}
-      .inner_main_menu ul {margin: 0; padding: 50px 0 0; padding-bottom: 50px; list-style: none; text-align: right;}
-      .inner_main_menu ul li {float: none; display: inline-block;}
-      .inner_main_menu ul li:nth-child(1) {float: left;}
-      .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        background-image: url(/images/homepage2/bg-aboutus1.png);
         background-size: cover;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-family: 'blooms'; font-size: 20px; text-transform: uppercase; text-decoration: none;
-      display: block; padding: 10px 20px;}
-      .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-      #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
       }
-      .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -150px; z-index: 100000;}
-  
-      @media (max-width:480px) {
-        .inner_main_menu {margin: 0 auto; width: 100%;}
-      .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-      .inner_main_menu ul li {float: none; display: inline-block;}
-      .inner_main_menu ul li:nth-child(1) {float: left;}
-      .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
-        background-size: cover;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-      display: block; padding: 10px 20px;}
-      .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-      #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+
+      .logo_area {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -75px;
+        z-index: 100000;
+        padding-top: 10px;
       }
-      .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
-    }
+
       .logo_area img {
-        max-width: 50%; height: auto;
+        max-width: 50%;
+        height: auto;
       }
+    }
+
+    @media (max-width:768px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
       }
-  
-      @media (max-width:768px) {
-        .inner_main_menu {margin: 0 auto; width: 100%;}
-      .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-      .inner_main_menu ul li {float: none; display: inline-block;}
-      .inner_main_menu ul li:nth-child(1) {float: left;}
-      .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
+      }
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
+      }
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
         background-size: cover;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-      display: block; padding: 10px 20px;}
-      .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-      #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        font-family: 'blooms';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
       }
-      .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
-    }
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 20%;
+        background-image: url(/images/homepage2/bg-aboutus1.png);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
+      }
+
+      .logo_area {
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -150px;
+        z-index: 100000;
+        padding-top: 10px;
+      }
+
       .logo_area img {
-        max-width: 50%; height: auto;
+        text-align: center;
+        padding-top: 15%;
+        min-width: auto;
+        padding: auto;
+        height: auto;
       }
+    }
+
+    @media (max-width:1024px) {
+      .inner_main_menu {
+        margin: 0 auto;
+        width: 100%;
       }
-  
-      @media (max-width:1024px) {
-        .inner_main_menu {margin: 0 auto; width: 100%;}
-      .inner_main_menu ul {margin: 0; padding: 44px 0 0; padding-bottom: 20px; list-style: none; text-align: right;}
-      .inner_main_menu ul li {float: none; display: inline-block;}
-      .inner_main_menu ul li:nth-child(1) {float: left;}
-      .inner_main_menu ul li a{background-image: url(/images/gold.jpg);
+
+      .inner_main_menu ul {
+        margin: 0;
+        padding: 44px 0 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: right;
+      }
+
+      .inner_main_menu ul li {
+        float: none;
+        display: inline-block;
+      }
+
+      .inner_main_menu ul li:nth-child(1) {
+        float: left;
+      }
+
+      .inner_main_menu ul li a {
+        background-image: url(/images/gold.jpg);
         background-size: cover;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        font-family: 'blooms'; font-size: 13px; text-transform: uppercase; text-decoration: none;
-      display: block; padding: 10px 20px;}
-      .inner_main_menu ul li a:hover {color: rgb(255, 255, 255);}
-      #main_menu {background-image: url(/images/homepage2/bg-aboutus1.png); background-size: cover; width: 100%; position: relative;
-        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px; z-index: 200000;
+        font-family: 'blooms';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
       }
-      .logo_area {width: 300px; height: 150px; position: absolute; left: 50%; top: 0%; content: ""; margin-left: -75px; z-index: 100000; padding-top: 10px;
-    }
+
+      .inner_main_menu ul li a:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #main_menu {
+        background-image: url(/images/homepage2/bg-aboutus1.png);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        box-shadow: rgba(167, 167, 167, 0.808) 0px 20px 30px -10px;
+        z-index: 200000;
+      }
+
+      .logo_area {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        content: "";
+        margin-left: -75px;
+        z-index: 100000;
+        padding-top: 10px;
+      }
+
       .logo_area img {
-        max-width: 50%; height: auto;
+        max-width: 50%;
+        height: auto;
       }
-      }
-    </style>
+    }
+  </style>
 
   <title>Blooms Of Essex | Gallery</title>
 </head>
@@ -150,249 +337,246 @@
   <!-- Main content -->
   <div class="main-content-st2">
 
-  <!-- Main content -->
-  <div class="hero-image11">
-    <div class="container201">
-      <h1><span>Enjoy our hand picked selection of flowers</span></h1>
+    <!-- Main content -->
+    <div class="hero-image11">
+      <div class="container201">
+        <h1><span>Enjoy our hand picked selection of flowers</span></h1>
+      </div>
     </div>
-</div>
 
-<style>
+    <style>
+      .hero-image11 {
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        background: url(/images/galleryhero.jpg) no-repeat center;
+        background-size: cover;
+      }
 
-    .hero-image11 {
-      position: relative;
-      height: 700px;
-      overflow: hidden;
-      background: url(/images/galleryhero.jpg) no-repeat center;
-      background-size: cover;
-    }
+      .container201 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Lora', serif;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
 
-    .container201 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      overflow: hidden;
-      text-align: center;
-      color: whitesmoke;
-      font-family: 'Lora', serif;
-      font-weight: 400;
-      text-transform: uppercase;
-    }
+      .container201 h1 {
+        font-size: 30px;
+        letter-spacing: 0.2em;
+        margin: 0;
+      }
 
-    .container201 h1 {
-      font-size: 50px;
-      letter-spacing: 0.2em;
-      margin: 0;
-    }
-
-    .container201 h1 span {
-      border: 2px solid whitesmoke;
-      padding: 6px 14px;
-      display: inline-block;
-    }
-
-
-</style>
+      .container201 h1 span {
+        border: 2px solid whitesmoke;
+        padding: 6px 14px;
+        display: inline-block;
+      }
+    </style>
 
 
-         <!-- Product Shop Page Full Width -->
-         <section class="popular-product product-shoppage-fullwidth padding-section">
-          <div class="container">
-            <div class="row">
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/1.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Great Globe-Thistle</h3>       
-                    <h5 class="item-name-h5 m-bottom-0">Echinops</h5>                                                                            
-                  </div>
-                </div>
+    <!-- Product Shop Page Full Width -->
+    <section class="popular-product product-shoppage-fullwidth padding-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/1.jpg" alt="flower">
               </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/2.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Sunflower</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Helianthus</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/3.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Sweetwilliam</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dianthus Barbatus</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/4.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Carnation</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dianthus Tros</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/5.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Barberton Daisy</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Gerbera Jamesonii</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/6.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Clove Pink</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dianthus Caryophyllus</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/7.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Garden Dahlia</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dahlia Pinnata</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/8.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Annual-Aster</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Callistephus Chinensis</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/9.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Florists' Chrysanthemum</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dendranthema Grandiflorum</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/10.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Clove Pink</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Dianthus Caryophyllus</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/11.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Rose</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Rosa Spp</h5>                                                                                     
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/12.jpg" alt="flower">
-                  </div>
-                  <div class="box-item-info">
-                    <h3 class="item-name m-bottom-0">Altar-Lily</h3>
-                    <h5 class="item-name-h5 m-bottom-0">Zantedeschia Aethiopica</h5>                                                                                     
-                  </div>
-                </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Great Globe-Thistle</h3>
+                <h5 class="item-name-h5 m-bottom-0">Echinops</h5>
               </div>
             </div>
           </div>
-<div class="manymore">
-  <h4>and many more</h4>
-</div>
-        </section>
 
-        <div class="artifical">
-          <h1>Artificial Flowers</h1>
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/2.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Sunflower</h3>
+                <h5 class="item-name-h5 m-bottom-0">Helianthus</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/3.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Sweetwilliam</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dianthus Barbatus</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/4.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Carnation</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dianthus Tros</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/5.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Barberton Daisy</h3>
+                <h5 class="item-name-h5 m-bottom-0">Gerbera Jamesonii</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/6.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Clove Pink</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dianthus Caryophyllus</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/7.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Garden Dahlia</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dahlia Pinnata</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/8.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Annual-Aster</h3>
+                <h5 class="item-name-h5 m-bottom-0">Callistephus Chinensis</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/9.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Florists' Chrysanthemum</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dendranthema Grandiflorum</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/10.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Clove Pink</h3>
+                <h5 class="item-name-h5 m-bottom-0">Dianthus Caryophyllus</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/11.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Rose</h3>
+                <h5 class="item-name-h5 m-bottom-0">Rosa Spp</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/12.jpg" alt="flower">
+              </div>
+              <div class="box-item-info">
+                <h3 class="item-name m-bottom-0">Altar-Lily</h3>
+                <h5 class="item-name-h5 m-bottom-0">Zantedeschia Aethiopica</h5>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="manymore">
+        <h4>and many more</h4>
+      </div>
+    </section>
 
-        <section class="popular-product product-shoppage-fullwidth padding-section">
-          <div class="container">
-            <div class="row">
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/a1.jpg" alt="flower">
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/a2.jpg" alt="flower">
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/a3.jpg" alt="flower">
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
-                <div class="box-item box-item-list-shoppage">
-                  <div class="box-item-image">
-                    <img src="images/gallery/INSTA/a4.jpg" alt="flower">
-                  </div>
-                </div>
+    <div class="artifical">
+      <h1>Artificial Flowers</h1>
+    </div>
+
+    <section class="popular-product product-shoppage-fullwidth padding-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/a1.jpg" alt="flower">
               </div>
             </div>
           </div>
-        </section>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/a2.jpg" alt="flower">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/a3.jpg" alt="flower">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4 col-sm-12 col-12 layout">
+            <div class="box-item box-item-list-shoppage">
+              <div class="box-item-image">
+                <img src="images/gallery/INSTA/a4.jpg" alt="flower">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Instagram -->
     <section class="instagram">
@@ -408,84 +592,56 @@
     <!-- end test -->
   </div>
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer-wrapper-st2">
-        <div class="footer-st2">
-          <div class="footer-content-st2">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3">
-                  <div class="f-content-st2-logo">
-                    <img src="images/logo1.png" alt="logo" width="151" height="108">
-                  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-wrapper-st2">
+      <div class="footer-st2">
+        <div class="footer-content-st2">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3">
+                <div class="f-content-st2-logo">
+                  <img src="images/logo1.png" alt="logo" width="151" height="108">
                 </div>
-                <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                  <div class="f-content-st2 f-content-st2-address">
-                    <div class="flex-custom">
-                      <div class="st2-icon st2-address-icon">
-                        <span class="ti-home"></span>
-                      </div>
-                      <div class="flex-grow-1">
-                        <span class="st2-address-text">
-                          Unit 9, Daniels Farm<br> Basildon, SS15 4AZ
-                        </span>
-                      </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
+                <div class="f-content-st2 f-content-st2-address">
+                  <div class="flex-custom">
+                    <div class="st2-icon st2-address-icon">
+                      <span class="ti-home"></span>
                     </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                  <div class="f-content-st2 f-content-st2-email">
-                    <div class="flex-custom">
-                      <span class="st2-icon st2-email-icon">
-                        <i class="ti-email"></i>
+                    <div class="flex-grow-1">
+                      <span class="st2-address-text">
+                        Unit 9, Daniels Farm<br> Basildon, SS15 4AZ
                       </span>
-                      <div class="flex-grow-1">
-                        <span class="st2-email-text">
-                          Email: <br>boe@nunyagroup.com
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                  <div class="f-content-st2 f-content-st2-phone">
-                    <div class="flex-custom">
-                      <div class="st2-icon st2-phone-icon">
-                        <span class="ti-mobile"></span>
-                      </div>
-                      <div class="flex-grow-1">
-                        <span class="st2-phone-text">
-                          Phone: <br>01268 288062
-                        </span>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="footer-info footer-info-st2">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4 cl-md-ipad-12 col-lg-6 col-xl-4 order-mobile-cp">
-                  <div class="info-copyright">
-                    <span>Copyright © 2021 by Nunya Marketing</span>
+              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
+                <div class="f-content-st2 f-content-st2-email">
+                  <div class="flex-custom">
+                    <span class="st2-icon st2-email-icon">
+                      <i class="ti-email"></i>
+                    </span>
+                    <div class="flex-grow-1">
+                      <span class="st2-email-text">
+                        Email: <br>boe@nunyagroup.com
+                      </span>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-pm">
-                  <div class="info-payment tx-center">
-                    <a class="gold" href="Privacy.pdf">Privacy Policy / </a>
-                    <a class="gold" href="termsofuse.pdf">Terms Of Use / </a>
-                    <a class="gold" href="copyright.pdf">Copyright Policy</a>
-                  </div>
-                </div>
-                <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-sc">
-                  <div class="social-inner-st2 tx-center">
-                    <div class="socials socials-st2">
-                      <a href="https://www.instagram.com/bloomsofessexwholesaleltd/" class="icon-social icon-social-st2">
-                        <i class="ti-instagram"></i>
-                      </a>
+              </div>
+              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
+                <div class="f-content-st2 f-content-st2-phone">
+                  <div class="flex-custom">
+                    <div class="st2-icon st2-phone-icon">
+                      <span class="ti-mobile"></span>
+                    </div>
+                    <div class="flex-grow-1">
+                      <span class="st2-phone-text">
+                        Phone: <br>01268 288062
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -493,8 +649,36 @@
             </div>
           </div>
         </div>
+        <div class="footer-info footer-info-st2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 cl-md-ipad-12 col-lg-6 col-xl-4 order-mobile-cp">
+                <div class="info-copyright">
+                  <span>Copyright © 2021 by Nunya Marketing</span>
+                </div>
+              </div>
+              <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-pm">
+                <div class="info-payment tx-center">
+                  <a class="gold" href="Privacy.pdf">Privacy Policy / </a>
+                  <a class="gold" href="termsofuse.pdf">Terms Of Use / </a>
+                  <a class="gold" href="copyright.pdf">Copyright Policy</a>
+                </div>
+              </div>
+              <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-sc">
+                <div class="social-inner-st2 tx-center">
+                  <div class="socials socials-st2">
+                    <a href="https://www.instagram.com/bloomsofessexwholesaleltd/" class="icon-social icon-social-st2">
+                      <i class="ti-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery-1.12.4.min.js"></script>
