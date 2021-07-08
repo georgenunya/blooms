@@ -1847,7 +1847,7 @@ a {
   position: relative; }
   .st2-categories .st2-categories-inner .st2-categories-item {
     padding: 17px;
-    box-shadow: 0 25px 38px rgba(255, 255, 255, 0.25), 0 15px 15px rgba(0,0,0,0.22);
+    box-shadow: 0 25px 38px rgba(255, 255, 255, 0.178), 0 15px 15px rgba(0,0,0,0.22);
     border: solid 4px goldenrod;
     background-color: black;
     height: 100%; }
