@@ -78,6 +78,10 @@ body {
   font-size: 1em;
 }
 
+.navbar {
+  background-color: black;
+}
+
 .container1 {
   width: 100vw;
 }
