@@ -70,10 +70,10 @@ body {
 }
 
 .logoimage {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 180px;
-  height: 82px;
+  height: 52px;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +81,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 125px;
-    height: 57px;
+    height: 36px;
   }
 }
 
@@ -197,7 +197,8 @@ a:hover {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #ffffff; }
+  color: #ffd700;
+}
 
 .tx-center {
   text-align: center; }
@@ -1499,7 +1500,10 @@ a {
         text-decoration: none;
         font-family: 'Lora', serif;
         font-weight: 400;
-        color: #fff;
+        background-image: url("/images/gold.jpg");
+        background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 
         font-size: 20px; }
         .header-bottom .header-bottom-st2-wrapper .header-bottom-st2-inner .st2-hamadryad-menu .st2-menu-primary .st2-li-primary .st3-item-link::after {
