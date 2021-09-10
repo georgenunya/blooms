@@ -69,6 +69,22 @@ body {
   overflow-x: hidden;
 }
 
+.logoimage {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+  height: 140px;
+}
+
+@media screen and (max-width: 768px) {
+  .logoimage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+  }
+}
+
 .manymore h4 {
   text-align: center;
   font-family: 'Droid Sans', sans-serif;
@@ -318,7 +334,7 @@ a {
       font-size: 16px;
       font-weight: 200;
       padding: 0 10px;
-      background: #ffffff;
+      background: #000000;
       z-index: 10;
       position: relative;
       display: inline-block; }
@@ -1815,7 +1831,9 @@ a {
   position: relative; }
   .slide-wrapper img {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+  object-fit: cover
+  ; }
   .slide-wrapper .slide-bg .st2-slide-content {
     color: #fff;
     position: absolute;
@@ -1838,6 +1856,15 @@ a {
       background: #fff;
       color: #cfb53b; }
 
+      @media screen and (max-width: 768px) {
+        .slide-wrapper {
+          position: relative; }
+          .slide-wrapper img {
+            width: 100%;
+            height: 400px;
+          object-fit: cover
+          ; }
+      }
 
 
 /** change color here for black and gold **/
@@ -2033,8 +2060,8 @@ a {
   position: relative; }
   .instagram .instagram-btn {
     display: inline-block;
-    background: #fff;
-    padding: 0 25px;
+    background: rgb(0, 0, 0);
+    padding: 10px 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2052,7 +2079,7 @@ a {
         }
 
 .instagram {
-  background: url("../images/5.jpg");
+  background: url("../images/i.png");
   min-height: 320px;
   background-position: left top;
   background-attachment: scroll;

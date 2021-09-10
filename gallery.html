@@ -39,34 +39,80 @@
   <title>Blooms Of Essex | Gallery</title>
 </head>
 
-<body class="black">
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light text-white fixed-top">
-        <a class="mx-auto d-block" href="index.html">
-            <img src="/images/mobilelogo.png" alt="">
-          </a>
-        <div class="container-fluid justify-content-center">
+<body>
+  <!-- Header -->
+  <header>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="bi bi-list text-white"></span>
-          </button>
-          <div class="collapse navbar-collapse right" id="navbarNavDropdown">
-            <ul class="navbar-nav text-center ms-auto">
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="gallery.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="contact.html">Contact Us</a>
-              </li>
 
-            </ul>
+
+    <!-- Header bottom -->
+    <div class="header-bottom">
+      <div class="header-bottom-st2-wrapper">
+        <div class="header-bottom-st2-inner">
+          <div class="container">
+            <div class="row js-compare">
+              <div class="col-lg-3 st2-col-lapt-3 col-md-3 col-3">
+                <a href="index.html">
+                  <img class="logoimage" src="images/hd.png"  alt="Logo">                  
+                </a>
+              </div>
+              <div class="col-lg-6 hide-reponsive js-dad">
+                <!-- Menu -->
+                <div class="st2-hamadryad-menu">
+                  <nav>
+                    <ul class="st2-menu-primary">
+                      <li class="st2-li-primary"><a class="st3-item-link" href="index.html">Home</a></li>
+                      <li class="st2-li-primary"><a class="st3-item-link" href="gallery.html">Gallery</a></li>
+                      <li class="st2-li-primary"><a class="st3-item-link"
+                          href="https://www.google.com/maps/dir//blooms+of+essex/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47d8c6d0785077f1:0x952d776560b771d1?sa=X&ved=2ahUKEwiDi9jbwoXxAhWNxYUKHVoUA9IQ9RcwAHoECBUQBA">Directions</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-lg-3 st2-col-lapt-9 col-md-9 col-9">
+                <div class="st2-control-right">
+                  <div class="st2-control">
+
+
+                    <!-- mega menu -->
+                    <div class="st2-megamenu-block st2-control-block js-click-megamenu">
+                      <div class="st2-megamenu-icon">
+                        <span class="lnr lnr-menu"></span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-</header>
+      </div>
+    </div>
+
+
+    <!-- Menu mobie -->
+    <div class="box-mobile-menu">
+      <span class="box-title">Menu</span>
+      <a href="#" class="close-menu" id="pull-closemenu">
+        <i class="lnr lnr-cross"></i>
+      </a>
+      <div class="menu-clone">
+        <ul class="main-menu">
+
+          <li class="menu-item menu-item-has-children"><a href="index.html">Home</a></li>
+          <li class="menu-item menu-item-has-children"><a href="gallery.html">Gallery</a></li>
+
+          <li class="menu-item menu-item-has-children"><a
+              href="https://www.google.com/maps/dir//blooms+of+essex/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47d8c6d0785077f1:0x952d776560b771d1?sa=X&ved=2ahUKEwiDi9jbwoXxAhWNxYUKHVoUA9IQ9RcwAHoECBUQBA">Directions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-overlay"></div>
+
+  </header>
 
   <!-- Main content -->
   <div class="main-content-st2">
@@ -81,7 +127,7 @@
     <style>
       .hero-image11 {
         position: relative;
-        height: 800px;
+        height: 600px;
         overflow: hidden;
         background: url(/images/galleryhero.jpg) no-repeat center;
         background-size: cover;
@@ -95,6 +141,8 @@
         overflow: hidden;
         text-align: center;
         color: whitesmoke;
+        background-color: black;
+        padding: 25px;
         font-family: 'Lora', serif;
         font-weight: 400;
         text-transform: uppercase;
@@ -110,6 +158,43 @@
         border: 2px solid whitesmoke;
         padding: 6px 14px;
         display: inline-block;
+      }
+
+      @media only screen and (max-width: 728px){
+        .hero-image11 {
+        position: relative;
+        height: 350px;
+        overflow: hidden;
+        background: url(/images/galleryhero.jpg) no-repeat center;
+        background-size: cover;
+      }
+
+      .container201 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        text-align: center;
+        color: whitesmoke;
+        background-color: black;
+        padding: 25px;
+        font-family: 'Lora', serif;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+
+      .container201 h1 {
+        font-size: 15px;
+        letter-spacing: 0.2em;
+        margin: 0;
+      }
+
+      .container201 h1 span {
+        border: 2px solid whitesmoke;
+        padding: 6px 14px;
+        display: inline-block;
+      }
       }
     </style>
 
@@ -327,91 +412,13 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-wrapper-st2">
-      <div class="footer-st2">
-        <div class="footer-content-st2">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3">
-                <div class="f-content-st2-logo">
-                  <img src="images/logo1.png" alt="logo" width="151" height="108">
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                <div class="f-content-st2 f-content-st2-address">
-                  <div class="flex-custom">
-                    <div class="st2-icon st2-address-icon">
-                      <span class="ti-home"></span>
-                    </div>
-                    <div class="flex-grow-1">
-                      <span class="st2-address-text">
-                        Unit 9, Daniels Farm<br> Basildon, SS15 4AZ
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                <div class="f-content-st2 f-content-st2-email">
-                  <div class="flex-custom">
-                    <span class="st2-icon st2-email-icon">
-                      <i class="ti-email"></i>
-                    </span>
-                    <div class="flex-grow-1">
-                      <span class="st2-email-text">
-                        Email: <br>boe@nunyagroup.com
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-3 custom-col-pt col-xl-3 align-self-center">
-                <div class="f-content-st2 f-content-st2-phone">
-                  <div class="flex-custom">
-                    <div class="st2-icon st2-phone-icon">
-                      <span class="ti-mobile"></span>
-                    </div>
-                    <div class="flex-grow-1">
-                      <span class="st2-phone-text">
-                        Phone: <br>01268 288062
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-info footer-info-st2">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 cl-md-ipad-12 col-lg-6 col-xl-4 order-mobile-cp">
-                <div class="info-copyright">
-                  <span>Copyright © 2021 by Nunya Marketing</span>
-                </div>
-              </div>
-              <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-pm">
-                <div class="info-payment tx-center">
-                  <a class="gold" href="Privacy.pdf">Privacy Policy / </a>
-                  <a class="gold" href="termsofuse.pdf">Terms Of Use / </a>
-                  <a class="gold" href="copyright.pdf">Copyright Policy</a>
-                </div>
-              </div>
-              <div class="col-md-4 cl-md-ipad-12 col-lg-3 col-xl-4 order-mobile-sc">
-                <div class="social-inner-st2 tx-center">
-                  <div class="socials socials-st2">
-                    <a href="https://www.instagram.com/bloomsofessexwholesaleltd/" class="icon-social icon-social-st2">
-                      <i class="ti-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <footer class="bg-black text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-light" href="https://nunyamarketing.com/">Nunya Group</a>
     </div>
+    <!-- Copyright -->
   </footer>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
