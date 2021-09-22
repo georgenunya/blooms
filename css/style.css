@@ -472,6 +472,7 @@ a {
   opacity: 1;
   visibility: visible; }
   .box-mobile-menu .box-title {
+    font-family: 'Lora', serif;
     display: block;
     width: 100%;
     font-size: 12px;
@@ -483,7 +484,7 @@ a {
     text-transform: uppercase;
     padding: 12px 0 10px 5px;
     letter-spacing: 3px;
-    font-weight: 700; }
+    font-weight: 300; }
   .box-mobile-menu .close-menu {
     position: absolute;
     bottom: 0;
@@ -501,6 +502,8 @@ a {
     .box-mobile-menu .close-menu:hover {
       color: #CDA83F; }
   .box-mobile-menu .menu-clone .main-menu {
+    font-family: 'Lora', serif;
+    font-weight: 200;
     list-style: none;
     width: 100%;
     left: 0;

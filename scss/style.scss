@@ -387,6 +387,7 @@ a{
             height: 100%;
             bottom: 0;
 			.menu-item{
+				font-family: 'Lora', serif;
 				border-bottom: solid 1px #e6e6e6;
                 display: inline-block;
                 position: static;
@@ -558,6 +559,7 @@ a{
     width: auto !important;
 }
 .popup{
+	font-family: 'Lora', serif;
 	display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
